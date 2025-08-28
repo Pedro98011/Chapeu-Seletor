@@ -18,7 +18,7 @@ class ResultadoActivity : AppCompatActivity() {
         val nomeCasa = intent.getStringExtra("EXTRA_CASA_NOME")
 
         // 3. Exibir o texto com o nome da casa
-        textResultado.text = "Você pertence à... $nomeCasa!"
+        textResultado.text = "Você pertence á... $nomeCasa!"
 
 
         // 4. Definir a imagem do brasão com base no nome da casa
